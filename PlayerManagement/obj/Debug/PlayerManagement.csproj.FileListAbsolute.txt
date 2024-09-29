@@ -1,0 +1,26 @@
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.exe.config
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.exe
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.pdb
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.AssemblyReference.cache
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\Test.MainPageForm.resources
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.Properties.Resources.resources
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.GenerateResource.cache
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.CoreCompileInputs.cache
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerMa.3D6CD076.Up2Date
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.exe
+C:\Users\erkay\OneDrive\Masaüstü\ERKAY DERS\C# KAMP\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.pdb
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.exe.config
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.exe
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\bin\Debug\PlayerManagement.pdb
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.AssemblyReference.cache
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\Test.MainPageForm.resources
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.Properties.Resources.resources
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.GenerateResource.cache
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.csproj.CoreCompileInputs.cache
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerMa.3D6CD076.Up2Date
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.exe
+C:\Users\erkay\Source\Repos\erkaysen26\PlayerManagement\PlayerManagement\obj\Debug\PlayerManagement.pdb
