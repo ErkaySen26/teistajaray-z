@@ -27,10 +27,10 @@ namespace Test
             this.weightTextBox = new System.Windows.Forms.TextBox();
             this.heightTextBox = new System.Windows.Forms.TextBox();
             this.surnameTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.attackTextBox = new System.Windows.Forms.TextBox();
             this.defenseTextBox = new System.Windows.Forms.TextBox();
@@ -100,10 +100,10 @@ namespace Test
             this.tabPage1.Controls.Add(this.weightTextBox);
             this.tabPage1.Controls.Add(this.heightTextBox);
             this.tabPage1.Controls.Add(this.surnameTextBox);
+            this.tabPage1.Controls.Add(this.nameTextBox);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.nameTextBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -147,6 +147,14 @@ namespace Test
             this.surnameTextBox.Size = new System.Drawing.Size(121, 24);
             this.surnameTextBox.TabIndex = 1;
             // 
+            // nameTextBox
+            // 
+            this.nameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.nameTextBox.Location = new System.Drawing.Point(96, 8);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(121, 24);
+            this.nameTextBox.TabIndex = 0;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -179,14 +187,6 @@ namespace Test
             this.label4.Size = new System.Drawing.Size(69, 19);
             this.label4.TabIndex = 7;
             this.label4.Text = "Weight :";
-            // 
-            // nameTextBox
-            // 
-            this.nameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.nameTextBox.Location = new System.Drawing.Point(96, 8);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(121, 24);
-            this.nameTextBox.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -316,15 +316,15 @@ namespace Test
             // savejsonToolStripMenuItem
             // 
             this.savejsonToolStripMenuItem.Name = "savejsonToolStripMenuItem";
-            this.savejsonToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.savejsonToolStripMenuItem.Text = "JSON Olarak Kaydet";
+            this.savejsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.savejsonToolStripMenuItem.Text = "save from json";
             this.savejsonToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // ımportjsonToolStripMenuItem
             // 
             this.ımportjsonToolStripMenuItem.Name = "ımportjsonToolStripMenuItem";
-            this.ımportjsonToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.ımportjsonToolStripMenuItem.Text = "JSON Olarak İçe Aktar";
+            this.ımportjsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ımportjsonToolStripMenuItem.Text = "import from json";
             this.ımportjsonToolStripMenuItem.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
             // 
             // playersDataGridView
@@ -383,16 +383,6 @@ namespace Test
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox searchTextBox;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox nameTextBox;
-        private System.Windows.Forms.TextBox surnameTextBox;
-        private System.Windows.Forms.TextBox heightTextBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox weightTextBox;
-        private System.Windows.Forms.TextBox attackTextBox;
-        private System.Windows.Forms.TextBox defenseTextBox;
         private System.Windows.Forms.MenuStrip menuStrip3;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem savejsonToolStripMenuItem;
@@ -402,10 +392,20 @@ namespace Test
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Label attackLabel;
-        private Label defenseLabel;
         private TabControl playerTabControl;
         private TabPage tabPage1;
+        private Label label1;
+        private TextBox weightTextBox;
+        private TextBox heightTextBox;
+        private TextBox surnameTextBox;
+        private TextBox nameTextBox;
+        private Label label3;
+        private Label label2;
+        private Label label4;
         private TabPage tabPage2;
+        private TextBox attackTextBox;
+        private TextBox defenseTextBox;
+        private Label attackLabel;
+        private Label defenseLabel;
     }
 }
