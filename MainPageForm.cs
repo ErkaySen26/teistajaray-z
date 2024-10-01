@@ -30,15 +30,15 @@ namespace Test
         {
             playersDataGridView.Dock = DockStyle.Fill;
             playersDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            playersDataGridView.AutoGenerateColumns = false;
+           //playersDataGridView.AutoGenerateColumns = false;
             playersDataGridView.ReadOnly = true;
 
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Name", HeaderText = "Name", DataPropertyName = "Name" });
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Surname", HeaderText = "Surname", DataPropertyName = "Surname" });
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Height", HeaderText = "Height", DataPropertyName = "Height" });
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Weight", HeaderText = "Weight", DataPropertyName = "Weight" });
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Attack", HeaderText = "Attack", DataPropertyName = "Attack" });
-            playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Defense", HeaderText = "Defense", DataPropertyName = "Defense" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Name", HeaderText = "Name", DataPropertyName = "Name" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Surname", HeaderText = "Surname", DataPropertyName = "Surname" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Height", HeaderText = "Height", DataPropertyName = "Height" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Weight", HeaderText = "Weight", DataPropertyName = "Weight" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Attack", HeaderText = "Attack", DataPropertyName = "Attack" });
+            //playersDataGridView.Columns.Add(new DataGridViewTextBoxColumn { Name = "Defense", HeaderText = "Defense", DataPropertyName = "Defense" });
 
             playersDataGridView.DataSource = new BindingList<Player>(playerRepository.FindAll());
             ResetPlayer();
@@ -183,27 +183,27 @@ namespace Test
         }
         private void attackTextBox_TextChanged(object sender, EventArgs e)
         {
-            // attackTextBox içeriği değiştiğinde yapılacak işlemler
+        
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Dosya menüsünden bir şey tıklandığında yapılacak işlemler
+        
         }
 
         private void Fill(object sender, EventArgs e)
         {
-            // DataGridView veya diğer bileşenleri doldurmak için kullanılacak kodlar
+            
         }
 
         private void refreshButton_Click(object sender, EventArgs e)
         {
-            // Yenileme düğmesine tıklandığında yapılacak işlemler
+            ResetPlayer()
         }
 
         private void searchTextBox_TextChanged(object sender, EventArgs e)
         {
-            // Arama metin kutusundaki değişiklikler için yapılacak işlemler
+            
         }
 
 
