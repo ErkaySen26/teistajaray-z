@@ -198,7 +198,7 @@ namespace Test
 
         private void refreshButton_Click(object sender, EventArgs e)
         {
-            ResetPlayer()
+            ResetPlayer();
         }
 
         private void searchTextBox_TextChanged(object sender, EventArgs e)
